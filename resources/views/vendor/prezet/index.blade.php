@@ -7,9 +7,8 @@
 
 <x-prezet::template>
     @seo([
-        'title' => 'Prezet: Markdown Blogging for Laravel',
-        'description' =>
-            'Transform your markdown files into SEO-friendly blogs, articles, and documentation!',
+        'title' => 'ttn 隨手記',
+        'description' => '一個記錄知識成長的地方',
         'url' => route('prezet.index'),
     ])
     <x-slot name="left">
@@ -21,12 +20,12 @@
                 <h1
                     class="font-display text-4xl font-bold tracking-tight text-gray-900"
                 >
-                    Prezet Blog
+                    ttn 隨手記
                 </h1>
 
                 <div class="justify-between sm:flex">
                     <p class="text-lg leading-7 text-gray-500">
-                        A blog created with Laravel and Tailwind.css
+                        一個記錄知識成長的地方
                     </p>
                     <div class="mt-4 block sm:mt-0">
                         @if ($currentTag)
